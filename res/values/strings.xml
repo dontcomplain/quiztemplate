@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QuizTemplate</string>
+    <string name="pkgName">com.summerice.uscitizenshiptest</string>
+    <string name="action_credits">Credits</string>
+    <string name="detail_credits">Source Code by DontComplain</string>
+
+</resources>

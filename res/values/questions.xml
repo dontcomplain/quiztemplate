@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="question">
+        <item>Question | Answer A | Answer B | Answer C | Answer D | false | false | true | false </item>
+        <item>Question | Answer A | Answer B | Answer C | Answer D | true | false | false | false </item>
+        <item>Question | Answer A | Answer B | Answer C | Answer D | false | true | false | false </item>
+        <item>Question | Answer A | Answer B | Answer C | Answer D | true | false | false | false </item>
+        <item>Question | Answer A | Answer B | Answer C | Answer D | false | false | true | false </item>
+        <item>Question | Answer A | Answer B | Answer C | Answer D | false | false | false | true </item>
+        <item>Question | Answer A | Answer B | Answer C | Answer D | false | false | false | false </item>
+        <item>Question | Answer A | Answer B | Answer C | Answer D | true | false | false | false </item>
+        <item>Question | Answer A | Answer B | Answer C | Answer D | false | false | false | true </item>
+        <item>Question | Answer A | Answer B | Answer C | Answer D | false | true | false | false </item>
+    </string-array>
+
+</resources>
