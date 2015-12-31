@@ -96,7 +96,6 @@ public class QuizActivity extends MainActivity {
 				pgTxt.setText("Completed: " + pgnum + "%");
 
 				// Used to show continue button if there is unused questions
-				// Now a limit can be added instead of using the whole stack
 				if (qamount < qlimit) {
 					nextbtn.setText("Continue");
 					nextbtn.setOnClickListener(new OnClickListener() {
@@ -124,6 +123,8 @@ public class QuizActivity extends MainActivity {
 							// Reset the test questions
 							qLayout.setVisibility(View.VISIBLE);
 							aLayout.setVisibility(View.GONE);
+							resetBtn.setVisibility(View.GONE);
+							sTxt.setText("Score: 0 of 0");
 							loadAllQs();
 						}
 					});
@@ -142,7 +143,6 @@ public class QuizActivity extends MainActivity {
 	private void loadAllQs() {
 		score = 0;
 		qamount = 0;
-		qlimit = 10;
 		// Get a clean list
 		oldqlist = new ArrayList<QAPair>();
 		newqlist = new ArrayList<QAPair>();
@@ -155,6 +155,7 @@ public class QuizActivity extends MainActivity {
 						Boolean.valueOf(tokens[7].trim()), Boolean.valueOf(tokens[8].trim())));
 			}
 		}
+		qlimit = newqlist.size();
 		randomQuestion();
 	}
 

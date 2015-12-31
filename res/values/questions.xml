@@ -11,7 +11,6 @@
         <item>Question | Answer A | Answer B | Answer C | Answer D | false | false | false | false </item>
         <item>Question | Answer A | Answer B | Answer C | Answer D | true | false | false | false </item>
         <item>Question | Answer A | Answer B | Answer C | Answer D | false | false | false | true </item>
-        <item>Question | Answer A | Answer B | Answer C | Answer D | false | true | false | false </item>
     </string-array>
 
 </resources>
